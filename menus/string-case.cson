@@ -1,0 +1,42 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [(
+      'label': 'String Case'
+      'submenu': [
+        {
+          'label': 'Camel case'
+          'command': 'string-case:camelcase'
+        }
+      ]
+    )
+    (
+      'label': 'String Case'
+      'submenu': [
+        {
+          'label': 'Kebab case'
+          'command': 'string-case:kebabcase'
+        }
+      ]
+    )
+    (
+      'label': 'String Case'
+      'submenu': [
+        {
+          'label': 'Pascal case'
+          'command': 'string-case:pascalcase'
+        }
+      ]
+    )
+    (
+      'label': 'String Case'
+      'submenu': [
+        {
+          'label': 'Snake case'
+          'command': 'string-case:snakecase'
+        }
+      ]
+    )]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "string-case",
+  "main": "./lib/string-case",
+  "author": "ori livni",
+  "version": "0.0.1",
+  "description": "Change string case",
+  "keywords": [
+    "camelcase",
+    "kebabcase",
+    "pascalcase",
+    "snakecase",
+    "strings"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "string-case:camelcase",
+      "string-case:kebabcase",
+      "string-case:pascalcase",
+      "string-case:snakecase"
+    ]
+  },
+  "repository": "git@github.com:oriSomething/string-case.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash.camelcase": "^3.0.1",
+    "lodash.capitalize": "^3.0.0",
+    "lodash.kebabcase": "^3.0.1",
+    "lodash.snakecase": "^3.0.1"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.13.1",
+    "eslint": "^1.8.0"
+  }
+}
