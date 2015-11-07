@@ -2,7 +2,7 @@
   "name": "string-case",
   "main": "./lib/string-case",
   "author": "ori livni",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Change string case",
   "keywords": [
     "camelcase",
