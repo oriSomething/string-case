@@ -19,7 +19,7 @@
       "string-case:snakecase"
     ]
   },
-  "repository": "git@github.com:oriSomething/string-case.git",
+  "repository": "https://github.com/oriSomething/string-case.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
