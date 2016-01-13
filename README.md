@@ -1,5 +1,7 @@
 # string-case package
 
+## Deprecated in favor of [atom-change-case](https://github.com/robhurring/atom-change-case)
+
 Allows you to convert string for one case to another easily
 
 - `cmd-k cmd-c` - convert selected text to camel case
